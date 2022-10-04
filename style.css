@@ -1,0 +1,53 @@
+/* style.css */
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/ami.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: var();
+  color: royalblue;
+  font-weight: bold;
+  text-decoration:overline underline;
+  transition: .3s;
+  text-align: center;
+}
+
+body {
+  font-family: Overpass;
+  color: #404042;
+  font-size: 18px;
+}
+
+a {
+  color: darkorange;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+p {
+  font-family: monospace;
+  color: darkgreen;
+  font-weight:unset;
+  text-decoration: none;
+  transition: .3s;
+  text-align: center;
+  background-color: lightsalmon;
+}
+img{
+width: 300px;
+}
+
+card{
+  display: grid;
+  grid-template-columns: 1fr 3fr
+}
+.card{
+text-align: center;
+}
+
+a:hover {
+  color: #CE2FAE;
